@@ -1,0 +1,225 @@
+--------------------------------------------------------------------------------------------
+Machine learning
+Deep learning
+Data analysis
+Data science
+Artificial intelligence
+---------------------------------------------------------------------------------------------
+Types of data
+
+1. Unstructured data
+2. Structured data
+---------------------------
+Python libraries
+
+1.Data manipulation---numpy, Pandas
+2.Data visualization---Matplotlib,seaborn,Plotly
+3.Machine Learning---scikit-leran,sk-learn
+4.Deep learning---Tensorflow,Keran,Pytorch
+---------------------------
+Method to access notepad access notepad converted python file into the command prompt.
+
+
+
+
+
+
+
+
+Rules of Variables
+---------------------
+1.can't start with numbers
+ex.1='python'---not applicable,
+   a1='python'--applicable
+
+2.No space
+ ex.a 1='python'---not applicable
+
+3.can't use Special characters
+ex. a$='hello';a_1='hi';_=200
+
+4.can't use Keyword
+for =2.2
+---------------------------
+PYTHON OPERATORS
+-----------------
+7 TYPES
+--------
+
+1.Arithmetic                               +,-,*,/,%,//,**
+
+2.Comparison /Relational Operator          >,<,>=,<=,!=,==
+
+3.Assignment operators                     +,+=,-=,*=,/=,//=
+
+4.Bitwise                                  &,|,^
+
+5.Logical Operators                        and,or,not
+
+6.Identity Operators                       is,is not
+          
+7.Membership Operators                     in,not in
+
+-----------------------------------------------------------------------------
+
+* ()---USES:-Function,Tuple.
+* []---USES:-List,Indexing,Slicing.
+* {}---USES:-Set,Dictionary.
+* <>---NO USE.
+
+-----------------------------------------------------------------------------
+
+DATA CLASSES AND BUILT-IN FUNCTION 
+
+Data types in PYTHON
+---------------------
+1. NUMERIC--int---a=5
+            float---b=5.5
+            complex--3+5j
+2. String --str---a='hello'/a="Hello"/a="""hi"""/a='''hi'''
+            b='"hello'"(Not possible)
+3. List----list---my_list=['abc',5,5,5,2+6j]
+4. Tuple---tuple-----my_tuple = (4,5,45,'hii','bye')
+5. Set-----set----{1,23,56,50}
+6. Dictionary----dict{key:value}
+7. Boolean------True,False
+-------------------------------------------------------------------------------
+
+Type()is used to tell the datatype of variables.
+
+--------------------------------------------------------------------------------
+
+STRING
+-------
+1. are immutable
+2. to create multi line string ''' or""" are used
+
+
+HOW TO USE MULTI LINE IN PYTHON
+----------------------------------
+c='''ABC
+DEF
+GHI'''
+Print(c)
+----------
+output
+---------
+ABC
+DEF
+GHI
+--------------
+
+ACCESSING STRING USING INDEXING
+---------------------------------
+Index of strings start with 0 and ends with n-1.
+Here, n stands for the total no. of characters in the string i.e. length of string.
+---------------------------------------------------------------------------------------
+ACCESSING STRING USING SLICING
+--------------------------------
+a="HELLO WORLD" 
+He
+a[startingpoint (by default 0)(including):stop(Excluding):step(by default 1)]
+a[0:2]
+
+------------------------------------------------
+
+for making the first letter capitale we use a.capitalize()
+to make it permanent use a=a.capitalize()
+for making the letters of different words capital use a.title()
+a=a.title()
+
+a.centre(50)
+a.centre(50,'#')
+---------------------------------
+list
+---------
+1.[]
+2.homo/hetro
+3.mutable
+4.indexing/slicing
+5.loop
+---------------------------------
+
+TUPLE
+--------
+1. ()
+2. COMMA SEPARATED value
+3. immutable
+4. homo/hetro[same and different kinds of data can be stored]
+5. indexing/slicing
+------------------------------------------
+
+SET
+-----
+1. unordered
+2. not use indexing and slicing
+3. unique collection
+
+------------------------------------------------------------------------------------
+
+Data Type DICTIONARY
+----------------------
+1. Unordered
+2. Key value pair
+3. Indexing/Slicing not possible
+-----------------------------------
+
+3 Statements
+--------------
+
+1.Condition/Decision Making--if-elif-else(suites/Indexing)
+2.Looping--For and While
+3.Exception Handling---try,Except
+
+-----------------------------------------------
+
+Simple if
+-----------
+age=int(input("Enter the age:"))
+if age<18:
+     print('A gift')
+if age>18 and age<=20:
+     print('a gift')
+     print('a task')
+if age>age:
+     print('Koi gift nahi hai')
+------------------------------------------------
+
+Ladder
+-------
+age=int(input("Enter the age:"))
+if age<18:
+  print('a gift')
+elif age>=18 and age<=20:
+  print('a gift')
+  print('a task')
+----------------------------------------------------
+
+Nested
+-------
+today=input("Enter the day:")
+condition=input("Enter the condition:")
+if today=='Saturday':
+    print('Half day work')
+elif today=='Sunday':
+    if condition=='Sick':
+         print('Take Rest')
+    else:
+         print('PARTY')
+------------------------------------------------------
+range(start point(including),stop point(excluding),step)
+
+Python Numbers
+--------------------------------------------------------------------------------
+
+
+
+
+H.W.
+-----
+
+ADD A VALUE IN TUPLE.
+-----------------------
+
+
+

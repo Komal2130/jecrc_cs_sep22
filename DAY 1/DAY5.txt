@@ -1,0 +1,32 @@
+t =[12,15,18,20]
+print("Old list",t)
+for i in range (len(t)):
+    t[i]=t[i]+1
+print ('List',t)
+
+
+O/P
+----
+[13, 16, 19, 21]
+
+
+t=[12,15,18,20,8,10,16]
+for i in t:
+    if i%2==0 and i>10:
+        print(i)
+       
+
+O/P
+----
+12
+18
+20
+16
+
+
+H.W.
+----
+t=[2,5,8,6,10,16]
+first four and odd ka power
+first four elements *2
+others as it is...

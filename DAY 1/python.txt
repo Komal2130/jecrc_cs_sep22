@@ -1,0 +1,550 @@
+
+--------------------------------------------------------------------------------------------
+Machine learning
+Deep learning
+Data analysis
+Data science
+Artificial intelligence
+---------------------------------------------------------------------------------------------
+Types of data
+
+1. Unstructured data
+2. Structured data
+---------------------------
+Python libraries
+
+1.Data manipulation---numpy, Pandas
+2.Data visualization---Matplotlib,seaborn,Plotly
+3.Machine Learning---scikit-leran,sk-learn
+4.Deep learning---Tensorflow,Keran,Pytorch
+---------------------------
+Method to access notepad access notepad converted python file into the command prompt.
+
+
+
+
+
+
+
+
+Rules of Variables
+---------------------
+1.can't start with numbers
+ex.1='python'---not applicable,
+   a1='python'--applicable
+
+2.No space
+ ex.a 1='python'---not applicable
+
+3.can't use Special characters
+ex. a$='hello';a_1='hi';_=200
+
+4.can't use Keyword
+for =2.2
+---------------------------
+PYTHON OPERATORS
+-----------------
+7 TYPES
+--------
+
+1.Arithmetic                               +,-,*,/,%,//,**
+
+2.Comparison /Relational Operator          >,<,>=,<=,!=,==
+
+3.Assignment operators                     +,+=,-=,*=,/=,//=
+
+4.Bitwise                                  &,|,^
+
+5.Logical Operators                        and,or,not
+
+6.Identity Operators                       is,is not
+          
+7.Membership Operators                     in,not in
+
+-----------------------------------------------------------------------------
+
+* ()---USES:-Function,Tuple.
+* []---USES:-List,Indexing,Slicing.
+* {}---USES:-Set,Dictionary.
+* <>---NO USE.
+
+-----------------------------------------------------------------------------
+
+DATA CLASSES AND BUILT-IN FUNCTION 
+
+Data types in PYTHON
+---------------------
+1. NUMERIC--int---a=5
+            float---b=5.5
+            complex--3+5j
+2. String --str---a='hello'/a="Hello"/a="""hi"""/a='''hi'''
+            b='"hello'"(Not possible)
+3. List----list---my_list=['abc',5,5,5,2+6j]
+4. Tuple---tuple-----my_tuple = (4,5,45,'hii','bye')
+5. Set-----set----{1,23,56,50}
+6. Dictionary----dict{key:value}
+7. Boolean------True,False
+-------------------------------------------------------------------------------
+
+Type()is used to tell the datatype of variables.
+
+--------------------------------------------------------------------------------
+
+STRING
+-------
+1. are immutable
+2. to create multi line string ''' or""" are used
+
+
+HOW TO USE MULTI LINE IN PYTHON
+----------------------------------
+c='''ABC
+DEF
+GHI'''
+Print(c)
+----------
+output
+---------
+ABC
+DEF
+GHI
+--------------
+
+ACCESSING STRING USING INDEXING
+---------------------------------
+Index of strings start with 0 and ends with n-1.
+Here, n stands for the total no. of characters in the string i.e. length of string.
+---------------------------------------------------------------------------------------
+ACCESSING STRING USING SLICING
+--------------------------------
+a="HELLO WORLD" 
+He
+a[startingpoint (by default 0)(including):stop(Excluding):step(by default 1)]
+a[0:2]
+
+------------------------------------------------
+
+for making the first letter capitale we use a.capitalize()
+to make it permanent use a=a.capitalize()
+for making the letters of different words capital use a.title()
+a=a.title()
+
+a.centre(50)
+a.centre(50,'#')
+---------------------------------
+list
+---------
+1.[]
+2.homo/hetro
+3.mutable
+4.indexing/slicing
+5.loop
+---------------------------------
+
+TUPLE
+--------
+1. ()
+2. COMMA SEPARATED value
+3. immutable
+4. homo/hetro[same and different kinds of data can be stored]
+5. indexing/slicing
+------------------------------------------
+
+SET
+-----
+1. unordered
+2. not use indexing and slicing
+3. unique collection
+
+------------------------------------------------------------------------------------
+
+Data Type DICTIONARY
+----------------------
+1. Unordered
+2. Key value pair
+3. Indexing/Slicing not possible
+-----------------------------------
+
+3 Statements
+--------------
+
+1.Condition/Decision Making--if-elif-else(suites/Indexing)
+2.Looping--For and While
+3.Exception Handling---try,Except
+
+-----------------------------------------------
+
+Simple if
+-----------
+age=int(input("Enter the age:"))
+if age<18:
+     print('A gift')
+if age>18 and age<=20:
+     print('a gift')
+     print('a task')
+if age>age:
+     print('Koi gift nahi hai')
+------------------------------------------------
+
+Ladder
+-------
+age=int(input("Enter the age:"))
+if age<18:
+  print('a gift')
+elif age>=18 and age<=20:
+  print('a gift')
+  print('a task')
+----------------------------------------------------
+
+Nested
+-------
+today=input("Enter the day:")
+condition=input("Enter the condition:")
+if today=='Saturday':
+    print('Half day work')
+elif today=='Sunday':
+    if condition=='Sick':
+         print('Take Rest')
+    else:
+         print('PARTY')
+------------------------------------------------------
+range(start point(including),stop point(excluding),step)
+----------------------------------------------------------
+-----------------------------------------------------------
+
+TO ADD WORDS BETWEEN TWO W0RDS WE USE D1.INSERT OPTION
+
+E.G. d1['name'].insert(1,'sunny')
+-----------------------------------------------------------
+
+LOOP
+------
+------
+1.For loop
+2.While loop
+
+for i in [1,2,3,4,5]:
+     print(i)
+
+
+for i in ('a','b','c','d','e'):
+    print(i)
+
+   
+O/P 
+a
+b
+c
+d
+e
+
+
+for i in 'Hello world':
+    print(i)
+
+O/P    
+H
+e
+l
+l
+o
+ 
+w
+o
+r
+l
+d
+
+
+for i in "HelloWorld":
+    print('HelloWorld')
+
+    
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+HelloWorld
+
+for x in "HelloWorld":
+    print('x')
+
+    
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+
+for x in "HelloWorld":
+    print('x')
+    print('Hello')
+
+    
+x
+Hello
+x
+Hello
+x
+Hello
+x
+Hello
+x
+Hello
+x
+Hello
+x
+Hello
+x
+Hello
+x
+Hello
+x
+Hello
+
+
+for x in "HelloWorld":
+    print(x)
+    print('Hello')
+
+    
+H
+Hello
+e
+Hello
+l
+Hello
+l
+Hello
+o
+Hello
+W
+Hello
+o
+Hello
+r
+Hello
+l
+Hello
+d
+Hello
+
+for x in "Hello":
+    print('x')
+    print('Hello')
+    print('hello world')
+
+    
+x
+Hello
+hello world
+x
+Hello
+hello world
+x
+Hello
+hello world
+x
+Hello
+hello world
+x
+Hello
+hello world
+
+--------------------------------------------------------------------------------
+
+t =[12,15,18,20]
+  print('tuple',t)
+
+
+t =[12,15,18,20]
+print("Old list",t)
+for i in range (len(t)):
+    t[i]=t[i]+1
+print ('List',t)
+
+
+O/P
+----
+[13, 16, 19, 21]
+
+
+t=[12,15,18,20,8,10,16]
+for i in t:
+    if i%2==0 and i>10:
+        print(i)
+       
+
+O/P
+----
+12
+18
+20
+16
+
+
+H.W.---17-09-22
+----
+t=[2,5,8,6,10,16]
+first four and odd ka power
+first four elements *2
+others as it is...
+
+print reverse
+
+
+--------------------------------
+
+
+
+H.W.---15-09-22
+-----
+
+ADD A VALUE IN TUPLE.
+-----------------------
+
+
+
+-------------------------------
+
+num = 1
+while num<=5:
+  print('Hello')
+  num +=1
+
+O/P
+----
+Hello
+Hello
+Hello
+Hello
+Hello
+
+
+while True:
+    print('This is an  infinite loop')
+    
+O/P
+----
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+This is an  infinite loop
+...
+....
+.....
+.......
+
+
+for i in(1,2,'abc','xyz',23,20):
+    if i =='xyz':
+        break
+    print(i)
+
+
+O/P
+----
+1
+2
+abc
+
+for i in(1,2,'abc','xyz',23,20):
+    if i =='xyz':
+        continue
+    print(i)
+
+O/P
+----
+1
+2
+abc
+23
+20
+
+
+for i in(1,2,'abc','xyz',23,20):
+    pass
+
+O/P
+-----
+       
+------
+
+
+
+
+Function
+----------
+1.NO i/p  NO o/p
+2.NO i/p but o/p
+3.i/p but NO o/p
+4.O/p and i/p
+
+--------------------------
+
+1.Taking multiple inputs
+2.Returning Multiple output
+3.Keyword Argument
+4.Default values
+5.*args
+6.**kwargs
+
+---------------------------
+
+t= =[12,15,18,20]
+print("Old list",t)
+for i in range (len(t)):
+    t[i]=t[i]+1
+print ('List',t)
+
+
+O/P
+----
+[13, 16, 19, 21]
+
+
+t=[12,15,18,20,8,10,16]
+for i in t:
+    if i%2==0 and i>10:
+        print(i)
+       
+
+O/P
+----
+12
+18
+20
+16
+
+
+H.W.
+----
+t=[2,5,8,6,10,16]
+first four and odd ka power
+first four elements *2
+others as it is...
+
+------------------------------------------------------
+

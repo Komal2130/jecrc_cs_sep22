@@ -1,0 +1,23 @@
+ML TRAINING
+
+GIT Commands
+-------------------
+>Create new repository
+>Provide valid name
+>Select Public repo
+>finish
+
+
+go to your folder  (for e.g. JeCRC_CS)
+type cmd in address bar then enter
+
+GIT Commands.    JECRC_CS     (ML Training)
+-----------------
+git init                                            #Initialize the GIT folder
+git add  .                                        #Add all files and folders in git folder
+git config   user.name "Your Name"
+git config user.email "youremail@id.com"
+git remote add origin "yourrepolink.git"
+
+git commit  -m  "anymessage"
+git push -u origin main

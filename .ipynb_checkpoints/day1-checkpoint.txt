@@ -1,0 +1,24 @@
+Machine Learning
+Deep Learning 
+Data Analysis
+Data Science
+Artificial Inteligence ----- Alexa, 
+Big Data ----- 3V --1. volume 2. varity 3. Velocity 
+Cloud Computing
+---------------------------------
+Types of Data
+1. Structured Data
+2. Unstructured Data
+---------------------------------
+Python Libraries
+1. Data Manupulation --- Numpy, Pandas
+2. Data Visualization ----- Matplotlib, seaborn, Plotly
+3. Machine Learning --- scikit-leran, sk-learn
+4. Deep learning ----- Tensorflow, Keras, Pytorch
+--------------------------------------
+
+
+
+
+
+

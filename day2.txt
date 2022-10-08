@@ -1,0 +1,61 @@
+Rules of VAriables
+--------------------
+1. can't start with Number
+ex. 1='python', a1='python'
+
+2. No Space 
+ a 1='python'
+
+3. can't use Special Character 
+a$ = 'hello'; a_1 = 'hi';   _=200
+
+4. cant use Keyword
+for =2.2
+--------------------
+Python Operator
+7 Types
+1. Arithmatic                     +,-,*,/,%,//, **
+2. Comparison/
+Relational Operator           >,<, >=, <=, !=, ==
+
+3. Assignment                 =, +=, -=, *=, /=, //=
+
+4. Bitwise                       &, |, ^
+
+5. Logical Operator           and, or , not
+
+6. identity operator           is, is not
+
+7. membership Operator    in, not in
+--------------------------------------------
+( ) -- Function, Expression, Tuple
+[ ] -- List, indexing, slicing
+{ } -- Set, Dictionary 
+<> -- NO use
+-----------------------------------------------
+Data Types in Python
+1. Numeric --- int ----a=5
+                       float ---- b =5.5
+                       complex = 3 +5j
+2. String ----- str----a='hello'/ a= "Hello"/ a= ''' hi'''
+                   b = "'hello"' (Not possible)
+
+3. List --------- list---- my_list = ['abc',5, 5.5, 2+6j]
+
+4. Tuple --------- tuple ------- my_tuple = (45,4.5,'hii', 'bye')
+
+5. Set ------------- set --------- { 1,23,56,50}
+
+5. Dictionary ------ dict--------- { key : value }
+
+6. Boolean ----------- True, False
+-------------------------------------------------------
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,22 @@
+CAPITALIZE
+capitalize all letters
+CASEFOLD
+used to covert to lower case
+CAT
+join the data countanization
+CENTER
+MAKES IT ON CENTRE AND REST ARE EMPTY STRINGS.
+COUNT
+searches for the letter
+ENDSWITH
+any thing ending with a particular things
+FIND
+used to find the first appearance
+a sort of like COUNT
+GET
+used to show first letter of every string
+by negative indexing last lettersv can be shown
+slicing is not allowed
+GET DUMMIES
+
+
