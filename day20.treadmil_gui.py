@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd 
 import matplotlib.pyplot as plt
 import seaborn as sns
 import tkinter as ttk
@@ -26,27 +26,30 @@ col1= ttk.Variable(app)
 values = ['Select']+ list(data.columns)
 col1.set(values[0])
 ttk.Label(app,text = 'Column 1').place(x=300,y=10)
-ttk.OptionMenu(app, col1, *values).place(x= 350,y = 20)
+ttk.OptionMenu(app, col1, *values).place(x= 300,y = 50)
 
 #Option Menu 2
 col2= ttk.Variable(app)
 col2.set(values[0])
 ttk.Label(app,text = 'Column 2').place(x=200,y=10)
-ttk.OptionMenu(app, col2, *values).place(x= 250,y = 20)
+ttk.OptionMenu(app, col2, *values).place(x= 200,y = 50)
 
 
 #Option Menu 3
 col3= ttk.Variable(app)
 col3.set(values[0])
-ttk.Label(app,text = 'Column 3').place(x=100,y=10)
-ttk.OptionMenu(app, col3, *values).place(x= 150,y = 20)
+ttk.Label(app,text = 'Column 3').place(x=150,y=150)
+ttk.OptionMenu(app, col3, *values).place(x= 150,y = 150)
 
 
 def show():
-   print(graphs.get())
-   print(col1.get())
-   print(col2.get())
-   print(col3.get())
+    fig = plt.figure(figsize=(5,2))
+    eval(graphs.get())
+    plt.show()
+    # print(graphs.get())
+   #print(col1.get())
+   #print(col2.get())
+   #print(col3.get())
 
 
 ttk.Button(app, text='Show', command = show).place(x=400,y=10)
